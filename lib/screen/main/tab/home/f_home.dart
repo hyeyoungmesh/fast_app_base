@@ -65,7 +65,13 @@ class HomeFragment extends StatelessWidget {
           onTap: () {
             context.showErrorSnackbar('error');
           },
-          child: '에러 보여주기 버튼'.text.white.size(13).make().centered().pSymmetric(h: 10, v: 5),
+          child: '에러 보여주기 버튼'
+              .text
+              .white
+              .size(13)
+              .make()
+              .centered()
+              .pSymmetric(h: 10, v: 5),
         ));
   }
 
