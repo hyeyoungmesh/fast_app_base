@@ -12,6 +12,7 @@ class Arrow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Icon(
       icon,
+      color: Colors.white,
       size: size,
     );
   }
