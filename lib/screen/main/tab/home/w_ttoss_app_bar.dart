@@ -3,7 +3,9 @@ import 'package:fast_app_base/common/dart/extension/context_extension.dart';
 import 'package:fast_app_base/common/widget/w_empty_expanded.dart';
 import 'package:fast_app_base/common/widget/w_height_and_width.dart';
 import 'package:fast_app_base/common/widget/w_tap.dart';
+import 'package:fast_app_base/screen/notification/s_notification.dart';
 import 'package:flutter/material.dart';
+import 'package:nav/nav.dart';
 
 class TtossAppBar extends StatefulWidget {
   static const double appBarHeight = 60;
@@ -33,9 +35,7 @@ class _TtossAppBarState extends State<TtossAppBar> {
           width10,
           Tap(
             onTap: () {
-              setState(() {
-                _showRedDot = !_showRedDot;
-              });
+              Nav.push(NotificationScreen());
             },
             child: Stack(
               children: [
