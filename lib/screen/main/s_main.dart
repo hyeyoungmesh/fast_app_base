@@ -35,6 +35,8 @@ class MainScreenState extends State<MainScreen>
 
   static double get bottomNavigationBarBorderRadius => 30.0;
 
+  static const double bottomNavigatorHeight = 50;
+
   @override
   FutureOr<void> afterFirstLayout(BuildContext context) async {
     // await login();
@@ -95,6 +97,7 @@ class MainScreenState extends State<MainScreen>
     return isFirstRouteInCurrentTab;
   }
 
+  // 메서드 함수로 만들어짐. 가능한 클래스위젯으로 만드는게 좋음. 메서드는 상태 유지 안 됨. 간단하면 가능.
   Widget _buildBottomNavigationBar(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(

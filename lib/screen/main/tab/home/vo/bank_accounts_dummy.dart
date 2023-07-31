@@ -39,7 +39,13 @@ final List<BankAccount> bankAccounts = [
   bankAccountShinhan2,
   bankAccountShinhan3,
   bankAccountToss,
-  bankAccountKaKao
+  bankAccountKaKao,
+  bankAccountShinhan1,
+  bankAccountShinhan2,
+  bankAccountShinhan3,
+  bankAccountShinhan1,
+  bankAccountShinhan2,
+  bankAccountShinhan3,
 ];
 
 final bankMap = {
