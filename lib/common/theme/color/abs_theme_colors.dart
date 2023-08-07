@@ -14,7 +14,7 @@ abstract class AbstractThemeColors {
 
   Color get scrollableItem => const Color.fromARGB(255, 57, 57, 57);
 
-  Color get iconButton => const Color.fromARGB(255, 0, 0, 0);
+  Color get iconButton => const Color.fromARGB(255, 255, 255, 255);
 
   Color get iconButtonInactivate => const Color.fromARGB(255, 162, 162, 162);
 
@@ -30,7 +30,7 @@ abstract class AbstractThemeColors {
 
   Color get divider => const Color.fromARGB(255, 228, 228, 228);
 
-  Color get text => AppColors.darkGrey;
+  Color get text => Colors.white;
 
   Color get hintText => AppColors.middleGrey;
 
@@ -54,5 +54,7 @@ abstract class AbstractThemeColors {
 
   Color? get lessImportant => AppColors.grey;
 
-  Color get blueText => const Color.fromARGB(255, 19, 11, 121);
+  Color get blueText => AppColors.blue;
+
+  Color? get plus => const Color.fromARGB(255, 230, 71, 83);
 }

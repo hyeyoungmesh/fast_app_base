@@ -16,7 +16,7 @@ class MainScreen extends StatefulWidget {
 
 class MainScreenState extends State<MainScreen>
     with SingleTickerProviderStateMixin, AfterLayoutMixin {
-  TabItem _currentTab = TabItem.home;
+  TabItem _currentTab = TabItem.stock;
   final tabs = [
     TabItem.home,
     TabItem.benefit,

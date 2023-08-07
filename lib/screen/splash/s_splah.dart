@@ -18,7 +18,7 @@ class _SplashScreenState extends State<SplashScreen> with AfterLayoutMixin {
   void initState() {
     delay(() {
       Nav.clearAllAndPush(const MainScreen());
-    }, 1500.ms);
+    }, 100.ms);
     super.initState();
   }
 
